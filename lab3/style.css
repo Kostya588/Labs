@@ -1,0 +1,126 @@
+body {
+background: border-box orange;
+}
+
+a {
+    padding: 2px; 
+    text-decoration: none; 
+    
+    color: rgb(116, 31, 16); 
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+h2 {
+    color:black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.product_description {
+    color:rgb(67, 75, 68);
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.product_description:hover{
+    color:rgb(67, 75, 68);
+}
+
+.product_description_big {
+    
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+}
+
+.product_description_big:hover{
+    color: #484343;
+}
+
+ul {
+    list-style-image: url(pics/plus.png);
+    font-family: cursive;
+    font-size: 20px;
+}
+
+input {
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+    color: black;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+textarea {
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.product_img {
+        float: right; 
+        border: solid #333; 
+		width: 200px;
+		height: 200px;
+        
+       
+    }
+
+a:hover{
+    color: rgb(255, 1, 1);
+}
+
+input[id="email"]:focus {
+	color: #002e03;
+	background-color: #caffcc;
+}
+
+input[id="theme"],input[id="name"],input[id="text"],textarea {
+	text-transform: capitalize;
+}
+table,
+td,
+th {
+	border: 1px solid rgb(15, 15, 15);
+}
+table {
+	border-collapse: collapse;
+}
+
+.product_img:hover{
+    border: none;
+    margin: 3px;
+
+}
+
+p:first-letter {
+	color: #c01f03;
+	font-size: 26px;
+}
+thead tr{
+	height: 50px;
+}
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+th.header {
+    text-align: center;
+}
+td.menu {
+    text-align: center;
+	
+}
+td.pics {
+    padding: 2%;
+    vertical-align: top;
+    text-align: center;
+    
+}
