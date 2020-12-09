@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
-
+<link rel="stylesheet" href="style.css">
 <head>
     <meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css">
     <title>Контакты</title>
 </head>
 
 <body>
-    <div style='text-align:center; width:100%'><a href="index.html">Главная</a>
-    <a class="catalog" href="catalog.html">Каталог</a>
-    <a class="contacts" href="contacts.html">Контакты</a>
-    
-    <hr size=5 color=blue>
-    <h1>Обратная связь</h1>
-    <form action="#" autocomplete="on">
-        <fieldset>          
+    <table>
+        <tr>
+            <th class="header">
+                <a href="index.html">Главная</a>
+                <a class="catalog" href="catalog.html">Каталог</a>
+                <a class="contacts" href="contacts.html">Контакты</a>
+            
+            </th>
+        </tr>
+        <tr>
+            <td class="menu">
+                <h1>Напишите нам</h1>
+            </td>
+        </tr>
+        <tr>
+            <td class="pics">
+                <form action="#" autocomplete="on">
+                    <fieldset>
             <input id="name" type="text" placeholder="Введите имя" maxlength="10" minlength="2" autocomplete="off" name="name" required>
             <br>
             <br>         
@@ -31,16 +40,28 @@
             <textarea cols="50" rows="10" name="text"></textarea>
             <br>
             <input type="submit" placeholder="Текст обращения"> </fieldset>
-    </form>
-    <h2>Адрес</h2>
-    <p>Наш телефон: +7 914 882 54 27
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td class="pics">
+                <h2>Адрес</h2>
+              <p>Наш телефон: +7 914 882 54 27
         <br>Наш офис находится: Россия, Тула, просп. Ленина, 2, Тула, Россия
         <br>email: tula.mail@inbox.ru
         <br>Мы работаем с 08:00 до 22:00</p>
     <h3>Вы можете найти нас на карте</h3>
    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9e0cb58efcbc62bfbc8504f7b8480426094c984520e1cdac92c57f65e2e2da85&amp;source=constructor" width="776" height="541" frameborder="0"></iframe>
     
-    <hr size=5 color=blue>
-    <p>Все права защищены &copy </p>
+			</td>
+        </tr>
+        <tr>
+            <td>
+                <footer>&copy Все права защищены</footer>
+            </td>
+        </tr>
+    </table>
+    
+    
 </body>
 </html>
